@@ -2,6 +2,9 @@
   "name": "A/B testing",
   "version": "1.0.0",
   "description": "",
+  "engines":{
+    "node":"15.8"
+  }
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
