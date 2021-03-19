@@ -45,12 +45,12 @@ var pieChart = React.createClass({
 //i hope the internet fails so nobody ever has to suffer through the hell that is web dev again
 export default function Admin() {
     const classes = useStyles()
-    const [ads, setAds] = useState([])
-
+    //const [ads, setAds] = useState([])
+    /*
     useEffect(() => {
         const abortController = new AbortController()
         const signal = abortController.signal
-
+        
         list(signal).then((data) => {
             if (data && data.error) {
                 console.log(data.error)
@@ -63,7 +63,7 @@ export default function Admin() {
         return function cleanup() {
             abortController.abort()
         }
-    },[])
+    },[])*/
     return (
         <Card className={classes.card}>
             <Typography variant="h6" className={classes.title}>
